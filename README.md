@@ -15,4 +15,5 @@
 # How to run the program?  
 You can run the program as       
 
-    $ g++ -std=gnu++11 dice_game.cxx -o dice_game && ./dice_game
+    $ make
+	$ ./dice_game
