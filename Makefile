@@ -6,4 +6,4 @@ dice_game: $(OBJ)
 %.o: %.cxx
 	$(CC) -std=gnu++11 -c -o $@ $^
 clean:
-	rm dice_game dice_game.o
+	rm dice_game *.o
